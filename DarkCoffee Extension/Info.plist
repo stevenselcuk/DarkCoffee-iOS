@@ -64,6 +64,6 @@
 		</dict>
 	</dict>
 	<key>NSHumanReadableDescription</key>
-	<string>This is DarkCoffee Extension. You should tell us what your extension does here.</string>
+	<string>DarkCoffee Extension enables dark mode for websites.</string>
 </dict>
 </plist>
