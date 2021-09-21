@@ -18,6 +18,7 @@
 		0A5DD45526FA4C6F00A111A2 /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = 0A5DD45426FA4C6F00A111A2 /* script.js */; };
 		0A5DD45726FA4C6F00A111A2 /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0A5DD45626FA4C6F00A111A2 /* ToolbarItemIcon.pdf */; };
 		0A5DD45A26FA4C6F00A111A2 /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A5DD45826FA4C6F00A111A2 /* SafariExtensionViewController.xib */; };
+		0A5DD46726FA52D700A111A2 /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = 0A5DD46626FA52D700A111A2 /* style.css */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		0A5DD45926FA4C6F00A111A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SafariExtensionViewController.xib; sourceTree = "<group>"; };
 		0A5DD45B26FA4C6F00A111A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A5DD45C26FA4C6F00A111A2 /* DarkCoffee_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DarkCoffee_Extension.entitlements; sourceTree = "<group>"; };
+		0A5DD46626FA52D700A111A2 /* style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +142,7 @@
 			children = (
 				0A5DD45426FA4C6F00A111A2 /* script.js */,
 				0A5DD45626FA4C6F00A111A2 /* ToolbarItemIcon.pdf */,
+				0A5DD46626FA52D700A111A2 /* style.css */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -234,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A5DD45A26FA4C6F00A111A2 /* SafariExtensionViewController.xib in Resources */,
+				0A5DD46726FA52D700A111A2 /* style.css in Resources */,
 				0A5DD45726FA4C6F00A111A2 /* ToolbarItemIcon.pdf in Resources */,
 				0A5DD45526FA4C6F00A111A2 /* script.js in Resources */,
 			);
