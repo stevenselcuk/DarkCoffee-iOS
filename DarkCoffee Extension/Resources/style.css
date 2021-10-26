@@ -1,4 +1,17 @@
-* {
-    background: #222;
-    color: #333!important;
+html,body,main, footer, aside,section,p,div,span {
+    background: #101213!important;
+    color: #b8b4b0!important;
+    
 }
+html,body,section,p, div,span > a {
+    color: #b8b4b0!important;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: #b8b4b0!important;
+}
+
+* > img {
+    filter: brightness(50%);
+}
+

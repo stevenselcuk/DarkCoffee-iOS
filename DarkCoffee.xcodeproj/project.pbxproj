@@ -3,42 +3,50 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A5DD43A26FA4C6D00A111A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5DD43926FA4C6D00A111A2 /* AppDelegate.swift */; };
-		0A5DD43D26FA4C6D00A111A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A5DD43B26FA4C6D00A111A2 /* Main.storyboard */; };
-		0A5DD43F26FA4C6D00A111A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5DD43E26FA4C6D00A111A2 /* ViewController.swift */; };
-		0A5DD44126FA4C6E00A111A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A5DD44026FA4C6E00A111A2 /* Assets.xcassets */; };
-		0A5DD44826FA4C6F00A111A2 /* DarkCoffee Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0A5DD44726FA4C6F00A111A2 /* DarkCoffee Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		0A5DD44D26FA4C6F00A111A2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A5DD44C26FA4C6F00A111A2 /* Cocoa.framework */; };
-		0A5DD45026FA4C6F00A111A2 /* SafariExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5DD44F26FA4C6F00A111A2 /* SafariExtensionHandler.swift */; };
-		0A5DD45226FA4C6F00A111A2 /* SafariExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5DD45126FA4C6F00A111A2 /* SafariExtensionViewController.swift */; };
-		0A5DD45526FA4C6F00A111A2 /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = 0A5DD45426FA4C6F00A111A2 /* script.js */; };
-		0A5DD45726FA4C6F00A111A2 /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0A5DD45626FA4C6F00A111A2 /* ToolbarItemIcon.pdf */; };
-		0A5DD45A26FA4C6F00A111A2 /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A5DD45826FA4C6F00A111A2 /* SafariExtensionViewController.xib */; };
-		0A5DD46726FA52D700A111A2 /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = 0A5DD46626FA52D700A111A2 /* style.css */; };
+		0AD42FAB2728549900CB70F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD42FAA2728549900CB70F5 /* AppDelegate.swift */; };
+		0AD42FAF2728549900CB70F5 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 0AD42FAD2728549900CB70F5 /* Main.html */; };
+		0AD42FB12728549900CB70F5 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AD42FB02728549900CB70F5 /* Icon.png */; };
+		0AD42FB32728549900CB70F5 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 0AD42FB22728549900CB70F5 /* Style.css */; };
+		0AD42FB52728549900CB70F5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD42FB42728549900CB70F5 /* SceneDelegate.swift */; };
+		0AD42FB72728549900CB70F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD42FB62728549900CB70F5 /* ViewController.swift */; };
+		0AD42FBA2728549900CB70F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AD42FB82728549900CB70F5 /* LaunchScreen.storyboard */; };
+		0AD42FBD2728549900CB70F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AD42FBB2728549900CB70F5 /* Main.storyboard */; };
+		0AD42FC52728549900CB70F5 /* DarkCoffee Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0AD42FC42728549900CB70F5 /* DarkCoffee Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0AD42FCA2728549900CB70F5 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD42FC92728549900CB70F5 /* SafariWebExtensionHandler.swift */; };
+		0AD42FCD2728549900CB70F5 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 0AD42FCC2728549900CB70F5 /* _locales */; };
+		0AD42FCF2728549900CB70F5 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 0AD42FCE2728549900CB70F5 /* images */; };
+		0AD42FD12728549900CB70F5 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AD42FD02728549900CB70F5 /* manifest.json */; };
+		0AD42FD32728549900CB70F5 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 0AD42FD22728549900CB70F5 /* background.js */; };
+		0AD42FD52728549900CB70F5 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 0AD42FD42728549900CB70F5 /* content.js */; };
+		0AD42FD72728549900CB70F5 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 0AD42FD62728549900CB70F5 /* popup.html */; };
+		0AD42FD92728549900CB70F5 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 0AD42FD82728549900CB70F5 /* popup.css */; };
+		0AD42FDB2728549900CB70F5 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 0AD42FDA2728549900CB70F5 /* popup.js */; };
+		0AD42FDD2728549900CB70F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AD42FBE2728549900CB70F5 /* Assets.xcassets */; };
+		0AD42FE8272854B000CB70F5 /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = 0AD42FE7272854B000CB70F5 /* style.css */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0A5DD44926FA4C6F00A111A2 /* PBXContainerItemProxy */ = {
+		0AD42FC62728549900CB70F5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 0A5DD42D26FA4C6D00A111A2 /* Project object */;
+			containerPortal = 0AD42F9F2728549900CB70F5 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0A5DD44626FA4C6F00A111A2;
+			remoteGlobalIDString = 0AD42FC32728549900CB70F5;
 			remoteInfo = "DarkCoffee Extension";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		0A5DD46226FA4C6F00A111A2 /* Embed App Extensions */ = {
+		0AD42FE32728549900CB70F5 /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				0A5DD44826FA4C6F00A111A2 /* DarkCoffee Extension.appex in Embed App Extensions */,
+				0AD42FC52728549900CB70F5 /* DarkCoffee Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -46,103 +54,114 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0A5DD43526FA4C6D00A111A2 /* DarkCoffee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DarkCoffee.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0A5DD43826FA4C6D00A111A2 /* DarkCoffee.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DarkCoffee.entitlements; sourceTree = "<group>"; };
-		0A5DD43926FA4C6D00A111A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0A5DD43C26FA4C6D00A111A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0A5DD43E26FA4C6D00A111A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0A5DD44026FA4C6E00A111A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0A5DD44226FA4C6E00A111A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0A5DD44726FA4C6F00A111A2 /* DarkCoffee Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "DarkCoffee Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0A5DD44C26FA4C6F00A111A2 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
-		0A5DD44F26FA4C6F00A111A2 /* SafariExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionHandler.swift; sourceTree = "<group>"; };
-		0A5DD45126FA4C6F00A111A2 /* SafariExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionViewController.swift; sourceTree = "<group>"; };
-		0A5DD45426FA4C6F00A111A2 /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
-		0A5DD45626FA4C6F00A111A2 /* ToolbarItemIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon.pdf; sourceTree = "<group>"; };
-		0A5DD45926FA4C6F00A111A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SafariExtensionViewController.xib; sourceTree = "<group>"; };
-		0A5DD45B26FA4C6F00A111A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0A5DD45C26FA4C6F00A111A2 /* DarkCoffee_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DarkCoffee_Extension.entitlements; sourceTree = "<group>"; };
-		0A5DD46626FA52D700A111A2 /* style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
+		0AD42FA72728549900CB70F5 /* DarkCoffee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DarkCoffee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AD42FAA2728549900CB70F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0AD42FAE2728549900CB70F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		0AD42FB02728549900CB70F5 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		0AD42FB22728549900CB70F5 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		0AD42FB42728549900CB70F5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0AD42FB62728549900CB70F5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0AD42FB92728549900CB70F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0AD42FBC2728549900CB70F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0AD42FBE2728549900CB70F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0AD42FBF2728549900CB70F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AD42FC42728549900CB70F5 /* DarkCoffee Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "DarkCoffee Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AD42FC92728549900CB70F5 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		0AD42FCC2728549900CB70F5 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		0AD42FCE2728549900CB70F5 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		0AD42FD02728549900CB70F5 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		0AD42FD22728549900CB70F5 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		0AD42FD42728549900CB70F5 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		0AD42FD62728549900CB70F5 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		0AD42FD82728549900CB70F5 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		0AD42FDA2728549900CB70F5 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		0AD42FDC2728549900CB70F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AD42FE7272854B000CB70F5 /* style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0A5DD43226FA4C6D00A111A2 /* Frameworks */ = {
+		0AD42FA42728549900CB70F5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0A5DD44426FA4C6F00A111A2 /* Frameworks */ = {
+		0AD42FC12728549900CB70F5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A5DD44D26FA4C6F00A111A2 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0A5DD42C26FA4C6D00A111A2 = {
+		0AD42F9E2728549900CB70F5 = {
 			isa = PBXGroup;
 			children = (
-				0A5DD43726FA4C6D00A111A2 /* DarkCoffee */,
-				0A5DD44E26FA4C6F00A111A2 /* DarkCoffee Extension */,
-				0A5DD44B26FA4C6F00A111A2 /* Frameworks */,
-				0A5DD43626FA4C6D00A111A2 /* Products */,
+				0AD42FA92728549900CB70F5 /* DarkCoffee */,
+				0AD42FC82728549900CB70F5 /* DarkCoffee Extension */,
+				0AD42FA82728549900CB70F5 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		0A5DD43626FA4C6D00A111A2 /* Products */ = {
+		0AD42FA82728549900CB70F5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0A5DD43526FA4C6D00A111A2 /* DarkCoffee.app */,
-				0A5DD44726FA4C6F00A111A2 /* DarkCoffee Extension.appex */,
+				0AD42FA72728549900CB70F5 /* DarkCoffee.app */,
+				0AD42FC42728549900CB70F5 /* DarkCoffee Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0A5DD43726FA4C6D00A111A2 /* DarkCoffee */ = {
+		0AD42FA92728549900CB70F5 /* DarkCoffee */ = {
 			isa = PBXGroup;
 			children = (
-				0A5DD43826FA4C6D00A111A2 /* DarkCoffee.entitlements */,
-				0A5DD43926FA4C6D00A111A2 /* AppDelegate.swift */,
-				0A5DD43B26FA4C6D00A111A2 /* Main.storyboard */,
-				0A5DD43E26FA4C6D00A111A2 /* ViewController.swift */,
-				0A5DD44026FA4C6E00A111A2 /* Assets.xcassets */,
-				0A5DD44226FA4C6E00A111A2 /* Info.plist */,
+				0AD42FAA2728549900CB70F5 /* AppDelegate.swift */,
+				0AD42FB42728549900CB70F5 /* SceneDelegate.swift */,
+				0AD42FB62728549900CB70F5 /* ViewController.swift */,
+				0AD42FB82728549900CB70F5 /* LaunchScreen.storyboard */,
+				0AD42FBB2728549900CB70F5 /* Main.storyboard */,
+				0AD42FBE2728549900CB70F5 /* Assets.xcassets */,
+				0AD42FBF2728549900CB70F5 /* Info.plist */,
+				0AD42FAC2728549900CB70F5 /* Resources */,
 			);
 			path = DarkCoffee;
 			sourceTree = "<group>";
 		};
-		0A5DD44B26FA4C6F00A111A2 /* Frameworks */ = {
+		0AD42FAC2728549900CB70F5 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				0A5DD44C26FA4C6F00A111A2 /* Cocoa.framework */,
+				0AD42FAD2728549900CB70F5 /* Main.html */,
+				0AD42FB02728549900CB70F5 /* Icon.png */,
+				0AD42FB22728549900CB70F5 /* Style.css */,
 			);
-			name = Frameworks;
+			path = Resources;
 			sourceTree = "<group>";
 		};
-		0A5DD44E26FA4C6F00A111A2 /* DarkCoffee Extension */ = {
+		0AD42FC82728549900CB70F5 /* DarkCoffee Extension */ = {
 			isa = PBXGroup;
 			children = (
-				0A5DD44F26FA4C6F00A111A2 /* SafariExtensionHandler.swift */,
-				0A5DD45126FA4C6F00A111A2 /* SafariExtensionViewController.swift */,
-				0A5DD45826FA4C6F00A111A2 /* SafariExtensionViewController.xib */,
-				0A5DD45B26FA4C6F00A111A2 /* Info.plist */,
-				0A5DD45C26FA4C6F00A111A2 /* DarkCoffee_Extension.entitlements */,
-				0A5DD45326FA4C6F00A111A2 /* Resources */,
+				0AD42FC92728549900CB70F5 /* SafariWebExtensionHandler.swift */,
+				0AD42FDC2728549900CB70F5 /* Info.plist */,
+				0AD42FCB2728549900CB70F5 /* Resources */,
 			);
 			path = "DarkCoffee Extension";
 			sourceTree = "<group>";
 		};
-		0A5DD45326FA4C6F00A111A2 /* Resources */ = {
+		0AD42FCB2728549900CB70F5 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				0A5DD45426FA4C6F00A111A2 /* script.js */,
-				0A5DD45626FA4C6F00A111A2 /* ToolbarItemIcon.pdf */,
-				0A5DD46626FA52D700A111A2 /* style.css */,
+				0AD42FCC2728549900CB70F5 /* _locales */,
+				0AD42FCE2728549900CB70F5 /* images */,
+				0AD42FD02728549900CB70F5 /* manifest.json */,
+				0AD42FD22728549900CB70F5 /* background.js */,
+				0AD42FD42728549900CB70F5 /* content.js */,
+				0AD42FD62728549900CB70F5 /* popup.html */,
+				0AD42FD82728549900CB70F5 /* popup.css */,
+				0AD42FDA2728549900CB70F5 /* popup.js */,
+				0AD42FE7272854B000CB70F5 /* style.css */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -150,32 +169,32 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0A5DD43426FA4C6D00A111A2 /* DarkCoffee */ = {
+		0AD42FA62728549900CB70F5 /* DarkCoffee */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0A5DD46326FA4C6F00A111A2 /* Build configuration list for PBXNativeTarget "DarkCoffee" */;
+			buildConfigurationList = 0AD42FE42728549900CB70F5 /* Build configuration list for PBXNativeTarget "DarkCoffee" */;
 			buildPhases = (
-				0A5DD43126FA4C6D00A111A2 /* Sources */,
-				0A5DD43226FA4C6D00A111A2 /* Frameworks */,
-				0A5DD43326FA4C6D00A111A2 /* Resources */,
-				0A5DD46226FA4C6F00A111A2 /* Embed App Extensions */,
+				0AD42FA32728549900CB70F5 /* Sources */,
+				0AD42FA42728549900CB70F5 /* Frameworks */,
+				0AD42FA52728549900CB70F5 /* Resources */,
+				0AD42FE32728549900CB70F5 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0A5DD44A26FA4C6F00A111A2 /* PBXTargetDependency */,
+				0AD42FC72728549900CB70F5 /* PBXTargetDependency */,
 			);
 			name = DarkCoffee;
 			productName = DarkCoffee;
-			productReference = 0A5DD43526FA4C6D00A111A2 /* DarkCoffee.app */;
+			productReference = 0AD42FA72728549900CB70F5 /* DarkCoffee.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0A5DD44626FA4C6F00A111A2 /* DarkCoffee Extension */ = {
+		0AD42FC32728549900CB70F5 /* DarkCoffee Extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0A5DD45F26FA4C6F00A111A2 /* Build configuration list for PBXNativeTarget "DarkCoffee Extension" */;
+			buildConfigurationList = 0AD42FE02728549900CB70F5 /* Build configuration list for PBXNativeTarget "DarkCoffee Extension" */;
 			buildPhases = (
-				0A5DD44326FA4C6F00A111A2 /* Sources */,
-				0A5DD44426FA4C6F00A111A2 /* Frameworks */,
-				0A5DD44526FA4C6F00A111A2 /* Resources */,
+				0AD42FC02728549900CB70F5 /* Sources */,
+				0AD42FC12728549900CB70F5 /* Frameworks */,
+				0AD42FC22728549900CB70F5 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -183,124 +202,142 @@
 			);
 			name = "DarkCoffee Extension";
 			productName = "DarkCoffee Extension";
-			productReference = 0A5DD44726FA4C6F00A111A2 /* DarkCoffee Extension.appex */;
+			productReference = 0AD42FC42728549900CB70F5 /* DarkCoffee Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		0A5DD42D26FA4C6D00A111A2 /* Project object */ = {
+		0AD42F9F2728549900CB70F5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1250;
-				LastUpgradeCheck = 1250;
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
 				TargetAttributes = {
-					0A5DD43426FA4C6D00A111A2 = {
-						CreatedOnToolsVersion = 12.5;
+					0AD42FA62728549900CB70F5 = {
+						CreatedOnToolsVersion = 13.0;
 					};
-					0A5DD44626FA4C6F00A111A2 = {
-						CreatedOnToolsVersion = 12.5;
+					0AD42FC32728549900CB70F5 = {
+						CreatedOnToolsVersion = 13.0;
 					};
 				};
 			};
-			buildConfigurationList = 0A5DD43026FA4C6D00A111A2 /* Build configuration list for PBXProject "DarkCoffee" */;
-			compatibilityVersion = "Xcode 9.3";
+			buildConfigurationList = 0AD42FA22728549900CB70F5 /* Build configuration list for PBXProject "DarkCoffee" */;
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 0A5DD42C26FA4C6D00A111A2;
-			productRefGroup = 0A5DD43626FA4C6D00A111A2 /* Products */;
+			mainGroup = 0AD42F9E2728549900CB70F5;
+			productRefGroup = 0AD42FA82728549900CB70F5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0A5DD43426FA4C6D00A111A2 /* DarkCoffee */,
-				0A5DD44626FA4C6F00A111A2 /* DarkCoffee Extension */,
+				0AD42FA62728549900CB70F5 /* DarkCoffee */,
+				0AD42FC32728549900CB70F5 /* DarkCoffee Extension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0A5DD43326FA4C6D00A111A2 /* Resources */ = {
+		0AD42FA52728549900CB70F5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A5DD44126FA4C6E00A111A2 /* Assets.xcassets in Resources */,
-				0A5DD43D26FA4C6D00A111A2 /* Main.storyboard in Resources */,
+				0AD42FB12728549900CB70F5 /* Icon.png in Resources */,
+				0AD42FBD2728549900CB70F5 /* Main.storyboard in Resources */,
+				0AD42FBA2728549900CB70F5 /* LaunchScreen.storyboard in Resources */,
+				0AD42FAF2728549900CB70F5 /* Main.html in Resources */,
+				0AD42FDD2728549900CB70F5 /* Assets.xcassets in Resources */,
+				0AD42FB32728549900CB70F5 /* Style.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0A5DD44526FA4C6F00A111A2 /* Resources */ = {
+		0AD42FC22728549900CB70F5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A5DD45A26FA4C6F00A111A2 /* SafariExtensionViewController.xib in Resources */,
-				0A5DD46726FA52D700A111A2 /* style.css in Resources */,
-				0A5DD45726FA4C6F00A111A2 /* ToolbarItemIcon.pdf in Resources */,
-				0A5DD45526FA4C6F00A111A2 /* script.js in Resources */,
+				0AD42FD32728549900CB70F5 /* background.js in Resources */,
+				0AD42FE8272854B000CB70F5 /* style.css in Resources */,
+				0AD42FD92728549900CB70F5 /* popup.css in Resources */,
+				0AD42FD72728549900CB70F5 /* popup.html in Resources */,
+				0AD42FCF2728549900CB70F5 /* images in Resources */,
+				0AD42FD12728549900CB70F5 /* manifest.json in Resources */,
+				0AD42FCD2728549900CB70F5 /* _locales in Resources */,
+				0AD42FD52728549900CB70F5 /* content.js in Resources */,
+				0AD42FDB2728549900CB70F5 /* popup.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0A5DD43126FA4C6D00A111A2 /* Sources */ = {
+		0AD42FA32728549900CB70F5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A5DD43F26FA4C6D00A111A2 /* ViewController.swift in Sources */,
-				0A5DD43A26FA4C6D00A111A2 /* AppDelegate.swift in Sources */,
+				0AD42FB72728549900CB70F5 /* ViewController.swift in Sources */,
+				0AD42FAB2728549900CB70F5 /* AppDelegate.swift in Sources */,
+				0AD42FB52728549900CB70F5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0A5DD44326FA4C6F00A111A2 /* Sources */ = {
+		0AD42FC02728549900CB70F5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A5DD45226FA4C6F00A111A2 /* SafariExtensionViewController.swift in Sources */,
-				0A5DD45026FA4C6F00A111A2 /* SafariExtensionHandler.swift in Sources */,
+				0AD42FCA2728549900CB70F5 /* SafariWebExtensionHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0A5DD44A26FA4C6F00A111A2 /* PBXTargetDependency */ = {
+		0AD42FC72728549900CB70F5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0A5DD44626FA4C6F00A111A2 /* DarkCoffee Extension */;
-			targetProxy = 0A5DD44926FA4C6F00A111A2 /* PBXContainerItemProxy */;
+			target = 0AD42FC32728549900CB70F5 /* DarkCoffee Extension */;
+			targetProxy = 0AD42FC62728549900CB70F5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0A5DD43B26FA4C6D00A111A2 /* Main.storyboard */ = {
+		0AD42FAD2728549900CB70F5 /* Main.html */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0A5DD43C26FA4C6D00A111A2 /* Base */,
+				0AD42FAE2728549900CB70F5 /* Base */,
 			);
-			name = Main.storyboard;
+			name = Main.html;
 			sourceTree = "<group>";
 		};
-		0A5DD45826FA4C6F00A111A2 /* SafariExtensionViewController.xib */ = {
+		0AD42FB82728549900CB70F5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0A5DD45926FA4C6F00A111A2 /* Base */,
+				0AD42FB92728549900CB70F5 /* Base */,
 			);
-			name = SafariExtensionViewController.xib;
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0AD42FBB2728549900CB70F5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AD42FBC2728549900CB70F5 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		0A5DD45D26FA4C6F00A111A2 /* Debug */ = {
+		0AD42FDE2728549900CB70F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -345,23 +382,23 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		0A5DD45E26FA4C6F00A111A2 /* Release */ = {
+		0AD42FDF2728549900CB70F5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -400,132 +437,181 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		0A5DD46026FA4C6F00A111A2 /* Debug */ = {
+		0AD42FE12728549900CB70F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = "DarkCoffee Extension/DarkCoffee_Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9937MYTBBA;
-				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "DarkCoffee Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "DarkCoffee Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@executable_path/../../../../Frameworks",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.tabbycatllc.DarkCoffee.Extension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		0A5DD46126FA4C6F00A111A2 /* Release */ = {
+		0AD42FE22728549900CB70F5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = "DarkCoffee Extension/DarkCoffee_Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9937MYTBBA;
-				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "DarkCoffee Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "DarkCoffee Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@executable_path/../../../../Frameworks",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.tabbycatllc.DarkCoffee.Extension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		0A5DD46426FA4C6F00A111A2 /* Debug */ = {
+		0AD42FE52728549900CB70F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = DarkCoffee/DarkCoffee.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9937MYTBBA;
-				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DarkCoffee/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DarkCoffee;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
+					"@executable_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.tabbycatllc.DarkCoffee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		0A5DD46526FA4C6F00A111A2 /* Release */ = {
+		0AD42FE62728549900CB70F5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = DarkCoffee/DarkCoffee.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9937MYTBBA;
-				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DarkCoffee/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DarkCoffee;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
+					"@executable_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.tabbycatllc.DarkCoffee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0A5DD43026FA4C6D00A111A2 /* Build configuration list for PBXProject "DarkCoffee" */ = {
+		0AD42FA22728549900CB70F5 /* Build configuration list for PBXProject "DarkCoffee" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0A5DD45D26FA4C6F00A111A2 /* Debug */,
-				0A5DD45E26FA4C6F00A111A2 /* Release */,
+				0AD42FDE2728549900CB70F5 /* Debug */,
+				0AD42FDF2728549900CB70F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0A5DD45F26FA4C6F00A111A2 /* Build configuration list for PBXNativeTarget "DarkCoffee Extension" */ = {
+		0AD42FE02728549900CB70F5 /* Build configuration list for PBXNativeTarget "DarkCoffee Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0A5DD46026FA4C6F00A111A2 /* Debug */,
-				0A5DD46126FA4C6F00A111A2 /* Release */,
+				0AD42FE12728549900CB70F5 /* Debug */,
+				0AD42FE22728549900CB70F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0A5DD46326FA4C6F00A111A2 /* Build configuration list for PBXNativeTarget "DarkCoffee" */ = {
+		0AD42FE42728549900CB70F5 /* Build configuration list for PBXNativeTarget "DarkCoffee" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0A5DD46426FA4C6F00A111A2 /* Debug */,
-				0A5DD46526FA4C6F00A111A2 /* Release */,
+				0AD42FE52728549900CB70F5 /* Debug */,
+				0AD42FE62728549900CB70F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 0A5DD42D26FA4C6D00A111A2 /* Project object */;
+	rootObject = 0AD42F9F2728549900CB70F5 /* Project object */;
 }

@@ -2,24 +2,23 @@
 //  AppDelegate.swift
 //  DarkCoffee
 //
-//  Created by Steven J. Selcuk on 21.09.2021.
+//  Created by Steven J. Selcuk on 26.10.2021.
 //
 
-import Cocoa
+import UIKit
 
 @main
-class AppDelegate: NSObject, NSApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate {
 
-    func applicationDidFinishLaunching(_ notification: Notification) {
-        // Insert code here to initialize your application
-    }
+    var window: UIWindow?
 
-    func applicationWillTerminate(_ notification: Notification) {
-        // Insert code here to tear down your application
-    }
-
-    func applicationShouldTerminateAfterLastWindowClosed(_ sender: NSApplication) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        // Override point for customization after application launch.
         return true
+    }
+
+    func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
+        return UISceneConfiguration(name: "Default Configuration", sessionRole: connectingSceneSession.role)
     }
 
 }
