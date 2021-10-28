@@ -1,7 +1,16 @@
-html,body,main, footer, aside,section,p,div,span {
-    background: #101213!important;
+html,body,main,header,footer,aside,section,p,div,span, nav {
+    background: #222222!important;
     color: #b8b4b0!important;
-    
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+::selection {
+  background-color: #939393!important;
+  color:  #222222!important;
+}
+a {
+    color: #b8b4b0!important;
+   /* background: #333333!important;*/
 }
 html,body,section,p, div,span > a {
     color: #b8b4b0!important;
@@ -15,3 +24,52 @@ h1,h2,h3,h4,h5,h6 {
     filter: brightness(50%);
 }
 
+input {
+    background-color: #939393!important;
+    background: #2e2e2e!important;
+    color:  #707070!important;
+    border-color:  #2e2e2e!important;
+    outline-color:  #2e2e2e!important;
+    border-left-color: #2e2e2e !important;
+    border-bottom-color: #2e2e2e !important;
+    border-top-color: #2e2e2e !important;
+    border-right-color: #2e2e2e !important;
+  
+}
+
+::placeholder {
+    color:  #fc0!important;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    background-color: #232323!important;
+    background: #232323!important;
+    border-color:  #2e2e2e!important;
+    outline-color:  #2e2e2e!important;
+    border-left-color: #2e2e2e !important;
+    border-bottom-color: #2e2e2e !important;
+    border-top-color: #2e2e2e !important;
+    border-right-color: #2e2e2e !important;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus ::placeholder {
+    color:  #909090!important;
+}
+
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    border-color:  #2e2e2e!important;
+    outline-color:  #2e2e2e!important;
+    border-left-color: #2e2e2e !important;
+        border-bottom-color: #2e2e2e !important;
+        border-top-color: #2e2e2e !important;
+        border-right-color: #2e2e2e !important;
+    }
+
+}
