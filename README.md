@@ -1,5 +1,5 @@
-# DarkCoffee
+# DarkCoffee for Safari (iOS 15)
 
 ## Safari App Extension
-
-Yet another dark theme extension for Safari (iOS support coming soon!)
+ 
+Need macOS Version?  See  👉🏻 https://github.com/stevenselcuk/DarkCoffee-macOS
